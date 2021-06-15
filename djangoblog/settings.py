@@ -42,7 +42,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'pandey.urls'
+ROOT_URLCONF = 'djangoblog.urls'
 
 TEMPLATES = [
     {
@@ -60,7 +60,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pandey.wsgi.application'
+WSGI_APPLICATION = 'djangoblog.wsgi.application'
 
 
 # Database
